@@ -1,6 +1,111 @@
-<body style="background-color:powderblue;">
+<!DOCTYPE html>
+<html lang=en> <!-- learned about Language attributes @ https://www.geeksforgeeks.org/html-lang-attribute/ -->
+	<!-- Validated errors using https://validator.w3.org/ these blogs helpped me fix my errors https://rocketvalidator.com/html-validation/heading-cannot-be-a-child-of-another-heading
+	 https://blog.christosoft.de/2015/04/html5-bogus-comment/ -->
+	<head>
+		<meta charset=utf-8> <!-- sets the character language that is being used to encode Map API URL's https://www.w3.org/International/questions/qa-html-encoding-declarations-->
+		<link rel="stylesheet" href="JMilneExternalCSSA2.css"> <!-- how to make an External CSS https://www.w3schools.com/css/css_howto.asp -->  
+		<title>Resume</title>
+	</head>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+	<body>
 
-</body>
+		<div id=heading> <!-- heading and navigation bar, the same on both pages to make website look cohesive -->
+			<h1>Julie Milne</h1> 
+			<h2>Imagine a professional and inspriational few sentances, that convey my virtue and merit.</h2>
+		</div>
+
+		<!--MenuOption begins-->
+		<div class="topnav"> <!-- Copied from W3schools https://www.w3schools.com/howto/howto_js_topnav.asp -->
+			<a class="active" href="./index.html">Home</a>
+			<a href="./page2.html">Opportunities</a> <!-- links to second page of website -->
+			<a href="./playingaround.html#Education">Education</a> <!-- links to class Education h3 heading on page 1-->
+			<a href="./playingaround.html#Experience">Experience</a> <!-- links to class Experience h3 heading on page 1-->
+			<a class="ExternalLink" href="https://www.linkedin.com/in/julie%2Dmilne%2D1394a1132/">LinkedIn</a> <!-- links enternally to LinkedIn profile -->
+		</div>
+		<!-- MenuOption ends -->
+
+		<img src="fbphoto1.jpg" alt="Julie & Eric at Canada Hockey game">
+
+		<h3 class="Education">Education</h3>
+			<div class=textblock> <!-- 1/3 textblocks, to give consistent formatting-->
+
+
+				<!--LinksOption begin -->
+				<h4><a class="ExternalLink" href="https://flemingcollege.ca/">Fleming College</a> 2023 - 2024</h4>
+					<p>GIS Applications Specialist</p>
+
+				<h4><a class="ExternalLink" href="https://www.uoguelph.ca/programs/bachelor-of-science-in-agriculture-bscagr/">University of Guelph</a> 2015 - 2019</h4>
+					<p>Bachelor of Science in Agriculture – Honours Agriculture 
+					Studies included Dairy Processing, International development, Vegetable production and Controlled Environmental Ecosystems  
+					</P>
+
+				<h4><a class="ExternalLink" href="https://www.lincoln.ac.nz/">Lincoln University</a> - Study Abroad 	February – July 2018 </h4>
+					<p>Christchurch, New Zealand Studied New Zealand Soils, Dairy and Tourism </P>
+				<!-- LinkOption ends-->
+
+			</div> <!-- 1/3 textblock ends -->
+
+		<h3 id="Experience">Experience</h3> <!-- this section contains my work experience -->
+			<div class=textblock> <!-- 2/3 textblocks, to give consistent formatting-->
+				<h4>Agronomy Inventory Analyst 	Sunderland Co-op 2020 – 2023 </h4>
+					<h5>Kawartha Lakes, ON</h5>
+						<ul> <!-- list used to organize text easily -->
+						  <li>Strong organizational skills and performance without close supervision </li>
+						  <li>Inventory Management - Monitor Seed, Chemical and fertilizer inventory through entire lifecycle at the company from receiving through to invoicing.</li>
+						  <li>Database management - Managed Agronomy portions of company Database, including 2300+ products, customers, field maps, orders and billing</li>
+						</ul>
+
+
+				<h4>Elections Canada</h4>
+					<p>2019 Information Officer – Northumberland Peterborough South </p>
+					<p>2021 Deputy returning officer – Haliburton - Kawartha Lakes - Brock </p>
+
+				<h4>Herd Manager   	Milbrae Farms </h4>
+					<section> <!-- section used to prevent nested headings, https://rocketvalidator.com/html-validation/heading-cannot-be-a-child-of-another-heading--> 
+						<h5>2007- 2020</h5>
+						<h5>Campbellford, ON</h5>
+							<ul> <!-- list used to organize text into a easy to read format -->
+							  <li>project planning, problem-solving, efficiency, teamwork </li>
+							  <li>Planning and executing major business redesign and upgrades</li>
+							  <li>Committing long hours to complete all tasks with efficiency </li>
+							  <li>Directed and managed contracted businesses</li>
+							</ul>
+					</section>
+
+				<h4>Valedictorian of the OAC class of 2019</h4>
+					<section> <!-- section used to prevent nested headings, https://rocketvalidator.com/html-validation/heading-cannot-be-a-child-of-another-heading--> 
+						<h5>University of Guelph, 2019</h5>
+					</section>
+
+				<h4>Agriculture Science Program Rep /  	Student Federation of the Student Risk Management Coordinator</h4>  	
+					<section> <!-- section used to prevent nested headings, https://rocketvalidator.com/html-validation/heading-cannot-be-a-child-of-another-heading--> 
+						<h5>Ontario Agriculture College 2018-2019 	Guelph, ON</h5>
+							<ul>
+								<li>Represent students in the Agriculture Science major at University of Guelph</li> 
+								<li>Risk management - Approve events run by 24 Student Clubs following risk management criteria</li> 
+								<li>Executive role, assisting in the delivery of all Student Federation of the OAC projects.</li> 
+								<li>Active role on multiple committees to review academic program changes and ensure student run events, University wide are organized safely</li>  
+							</ul>
+					</section>
+
+				<h4>Secretary  	Walsh Veterinary Services 2015, 2019 </h4>
+					<section> <!-- section used to prevent nested headings, https://rocketvalidator.com/html-validation/heading-cannot-be-a-child-of-another-heading--> 
+						<h5>Campbellford, ON </h5>
+							<ul>
+								<li>Office management - Managing the office, opening and closing, receiving and ordering stock, Dispatch Veterinarians to emergencies and scheduled appointments.</li> 
+								<li>Invoicing, receiving payments using accounting software (QuickBooks) </li>
+								<li>Strong detail-oriented workplace, following strict protocols involving medicine</li> 
+							</ul>
+					</section>
+
+				<h4>Tourism Assistant  	Trent Hills District Chamber of Commerce and Visitor Centre 2014 – 2015</h4>
+					<section> <!-- section used to prevent nested headings, https://rocketvalidator.com/html-validation/heading-cannot-be-a-child-of-another-heading--> 
+						<h5>Campbellford, ON</h5>
+						<ul>
+							<li>Welcomed tourists to Trent Hills, answered questions about the area, and advised them on possible places of interest. </li>
+						</ul>
+					</section>
+			</div>	<!-- end of this textbox class -->
+	</body>
+</html>
