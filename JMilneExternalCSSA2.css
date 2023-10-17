@@ -1,0 +1,53 @@
+/* Colors chosen from https://www.w3schools.com/colors/colors_names.asp */
+/* how to make an External CSS https://www.w3schools.com/css/css_howto.asp */ 
+/* Validated using https://jigsaw.w3.org/css-validator/validator */
+
+/* Website wide formatting */
+	* {Font-family: verdana; margin-inline-start: 1.5em; margin-inline-end: 1.5em} /* formating to all elements, sets all fonts to Verdana, sets the inline margin of all elements to 1.5em at the start and end, learned by playing around in the f12 elements window*/
+
+/* Element specific formating */
+	h1 { text-align: Center;
+		color: Indigo;  } /* Centers all h1 headings, and makes text Indigo*/
+		
+	h2 { text-align: Center;
+		color: purple; } /* Centers all h2 headings, and makes text Purple*/
+		
+	h3 { text-align: center; color: Indigo; background-color: BurlyWood; font-size: 1.3em} /* Centers all h3 headings, makes text Indigo, gives the element a baclground color and increases the font size from the default 1.17em*/
+
+	h4 {border-style: none none none solid; padding-left: 5px} /* border styles reference https://www.w3schools.com/css/tryit.asp?filename=trycss_border-style */
+
+	h5 {color: SlateGrey; padding-left: 15px; } /* Indents all h5 headings, and makes text Slategrey*/
+		
+	p {background-color: cornsilk; padding-left: 50px; padding-right: 50px} /* padding all p elements to make separate the text from the edge of the element, discovered by playing in the F12 tool */
+
+	body  {background-color: DarkCyan; } /*making the body a darker color than the elements with in, makes the content pop*/
+	
+	ul {list-style-type: circle} /* customize the bullet point style to open circles https://www.w3schools.com/css/tryit.asp?filename=trycss_list-style-type_ex */
+
+
+/* id selectors */
+	#heading {background-color: Lavender; Border-style: dotted solid} /* heading at the top of all pages, to make the website uniform */
+	#mapimages {text-align: center} /* mapimages located on page 2, Centers the images */
+
+
+/* Class selectors */
+
+	/* Navigation bar: style inspiration from https://www.w3schools.com/howto/howto_js_topnav.asp */
+		.topnav {background-color: BurlyWood; overflow: hidden; font-weight: bold;} /*sets the entire navbar to the same color and font (overflow is set to hide content that doesn't fit within the element)*/
+			/* overflow reference: https://www.w3schools.com/css/css_overflow.asp */
+		.topnav a {  float: left;
+		  color: BlanchedAlmond;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;} /*text in each link is centered within its space, using padding and text-align,text decoration is set to none - removing the default underline, fornt size and text is also changed */		  
+		.topnav a.active {
+		  background-color: CadetBlue;
+		  color: white; text-decoration: underline 3px} /* active class is assigned to the the current page, and assigned a distinct colour and a thick underline so the user knows which page they are on easily */ 
+		.topnav a.ExternalLink { color: DarkBlue; float: right; text-decoration: underline} /* external link given a distinct color and appears on  the right side of the navigation bar, to separate from internal links, text decoration ideas from https://www.w3schools.com/cssref/pr_text_text-decoration.php */
+		  
+	.textblock {background-color: cornsilk; padding-top: 6px; padding-bottom: 6px} /*class assigned to all large text blocks for uniform formatting, 2 on page 1, 1 on page 2 */
+
+
+	.ExternalLink {color: cornflowerBlue; text-decoration: underline dotted} /* Class External link assigned to all external links, modifying the default link color and design using class */
+
