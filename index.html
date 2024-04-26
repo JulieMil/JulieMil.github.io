@@ -1,0 +1,198 @@
+<!DOCTYPE html><!--Julie's code starts here --> 
+<html lang=en>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--https://www.w3schools.com/html/html_responsive.asp-->
+      <!--statement to allow responsive websites-->
+        <meta charset=utf-8>
+        <link rel="stylesheet" href="Styling.css"> <!--Link to stylesheet-->
+        <title> OS-Cart Experience </title>
+        <!-- Julie's Code ends here -->
+        <!--*Owner:Alanah Reveler-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!--icon for navbar button-->
+        <script src="script.js"></script> <!--Link to javascript-->
+    </head>
+    <body>
+	 <!--Owner End:Alanah Reveler-->
+         <!--
+        * Owner : Laura Cobham (navbar links to different pages)
+        * From : https://www.w3schools.com/colors/colors_palettes.asp
+         -->
+        <div class="navbar" id="myTopnav">
+	  <a href="index.html">Home</a>
+	  <a href="#SpatialAnalysis">SpatialAnalysis</a>
+
+    <a href="#Geovisualization">Geovisualization</a>
+	  <a href="#ImagePro">Remote Sensing</a>
+	<!-- End Owner: Laura Cobham --> 
+	<!--
+	*Owner:Alanah Reveler 
+	*Linking javascript to navbar	
+        *From:https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+	-->
+        <a href="javascript:void(0);" class="icon" onclick="Navbar()">
+        <i class="fa fa-bars"></i></a>
+        <!--Owner End:Alanah Reveler-->
+	<!--
+        * Owner : Laura Cobham (relative links within same page)
+        * From : https://www.w3schools.com/colors/colors_palettes.asp
+         -->
+	</div>
+	<!-- End Owner: Laura Cobham --> 
+	    
+        <!--Julie's code starts here 
+	    Heading and Spatial Analysis Page-->
+        <div id=heading> 
+            <h1>Julie Milne</h1>
+            <h2>Experienced programer, Data Visualizer, and Image Analyst</h2>
+        </div>
+        <div id="About">
+          <h3>Previous Works</h3>
+    
+        </div>
+        <hr>
+    		<h3 id="SpatialAnalysis"> Spatial Analysis </h3> 
+        <hr>
+            <div class="cartsection" id="SpatialPage">  <!-- Create div to contain all relevant information -->
+              <img class= "cartimg" src= "imagegallery/NetworkAnalysisSA2TF2.jpg"  alt="Spatial Analysis of Amenities in Thunder Bay Ontario">
+              <div class="carttext"><p> Service Area Analysis, Mapbook</p> 
+                <p>Created using ArcGIS Pro, by geocoding and linear referencing Toronto Fire Stations and Childcare centres.</p> 
+              </div>
+            </div>
+            <div></div>    <!-- Div stops the components from overlapping -->
+        <!-- Julie's Code ends here -->
+        <hr>
+        <div class="cartsection">
+          <img class= "cartimg" src= "imagegallery/SSPYORaspberries.jpg" alt="example of Geovisualization">
+          <div class="carttext">
+            <p>Suitability Map for a Pick-your-own (PYO) Raspberry Farm in Northumberland County</p>
+            <p>The darker green areas indicate these are most suitable for a PYO raspberry Patch. This was determined using AHP method for a Multi-criteria Decision Analysis based on five factors.</p>
+            <ol><li>Market Potential (29%)</li>
+            <li>Soil Texture (21%)</li>
+            <li>Distance to Surface Water (25%)</li>
+            <li>Landcover (17%)</li>
+            <li>Slope (8%)</li></ol>
+          </div></div>
+          <div></div>   
+      <hr>
+      <div class="cartsection">
+        <img class= "cartimg" src= "imagegallery/EnvirModelAss1.jpg" alt="example of Geovisualization">
+        <div class="carttext">
+          <p>3D-Scene Binary Suitability analysis created using ArcGIS Pro - December 2023</p></div>
+        </div>
+        <div></div>   
+    <hr>
+        <!--  Alisons code starts here -->
+    	  <hr>     
+    		<h3 id="Geovisualization"> Geovisualization </h3>
+        <hr>   
+            <div class="cartsection">
+            <img class= "cartimg" src= "imagegallery/GVITF4Topographic.jpg" alt="example of Geovisualization">
+            <div class="carttext">
+              <p>Topographic Map of Thunder Bay, Ontario 1:100,000 following Government of Canada topographic map standards. </p></div>
+            <!-- -->
+            </div>
+            <div></div>   
+        <hr>
+        <div class="cartsection">
+          <img class= "cartimg" src= "imagegallery/Jmilne_GV1FP.jpg" alt="example of Geovisualization">
+          <div class="carttext">
+            <p>Reference map showing the administrative EcoRegions of Ontario, created using ArcGIS Pro, Adobe Illustrator, and Microsoft Excel. </p></div>
+          </div>
+          <div></div> 
+      <hr>
+      <div class="cartsection">
+        <img class= "cartimg" src= "imagegallery/Jmilne_GV1TF3_Qualitative.jpg" alt="example of Geovisualization">
+        <div class="carttext">
+          <p>Landuse map of Thunder Bay Ontario</p></div>
+        </div>
+        <div></div>   
+    <hr>
+    <div class="cartsection">
+      <img class= "cartimg" src= "imagegallery/Jmilne_GV1TF3_Quanitative.jpg" alt="example of Geovisualization">
+      <div class="carttext">
+        <p>Quantitative Population Density map of Thunder Bay Ontario, based on 2016 population data. - October 2023</p></div>
+      </div>
+      <div></div>   
+  <hr>
+        <hr>     
+    		<h3 id="ImagePro"> Image Analytics </h3>
+        <hr>   
+            <div class="cartsection">
+            <img class= "cartimg" src= "imagegallery/JmilneAss1Output.jpg" alt="example of Geovisualization">
+            <div class="carttext">
+              <p>Sharpened Landsat 9 imagry overlayed with Shadend Releif, Created using PCI Catalyst for image processing and ArcGIS Pro for final layout. - April 2024</p></div>
+            </div>
+            <div></div>   
+        <hr>
+        <hr>   
+        <div class="cartsection">
+        <img class= "cartimg" src= "imagegallery/JmilneQ6.jpg" alt="example of Geovisualization">
+        <div class="carttext">
+          <p>Supervised Image Object Classification land cover map, created using PCI Catalyst and ArcGIS Pro. </p></div>
+        </div>
+        <div></div>   
+        <hr>
+        <hr>   
+        <div class="cartsection">
+        <img class= "cartimg" src= "imagegallery/OrthRS2P4.png" alt="example of Geovisualization">
+        <div class="carttext">
+          <p>Orthorectified Standard False colour image of Milton Ontario.1:20,000.  Image captured June 10th, 1999 by the Southern Ontario Colour Infrared Aerial Photography 1994-2002 project. Image Orthorectified March 1st 2024. Displayed on top of a 75 cm resolution, 2002 true colour image of the area, with the road network overlayed. </p></div>
+        </div>
+        <div></div>   
+    <hr>
+    <hr>   
+    <div class="cartsection">
+    <img class= "cartimg" src= "imagegallery/AutoCadNoColourSurvey.jpg" alt="example of Geovisualization">
+    <div class="carttext">
+      <p>Orthorectified Standard False colour image of Milton Ontario.1:20,000.  Image captured June 10th, 1999 by the Southern Ontario Colour Infrared Aerial Photography 1994-2002 project. Image Orthorectified March 1st 2024. Displayed on top of a 75 cm resolution, 2002 true colour image of the area, with the road network overlayed. </p></div>
+    </div>
+    <div></div>   
+<hr>
+<hr>   
+<div class="cartsection">
+<img class= "cartimg" src= "imagegallery/AutoCadWITHColourSurvey.jpg" alt="example of Geovisualization">
+<div class="carttext">
+  <p>Orthorectified Standard False colour image of Milton Ontario.1:20,000.  Image captured June 10th, 1999 by the Southern Ontario Colour Infrared Aerial Photography 1994-2002 project. Image Orthorectified March 1st 2024. Displayed on top of a 75 cm resolution, 2002 true colour image of the area, with the road network overlayed. </p></div>
+</div>
+<div></div>   
+<hr>
+<hr>   
+<div class="cartsection">
+<img class= "cartimg" src= "imagegallery/FMESem2PythonA3.PNG" alt="example of Geovisualization">
+<div class="carttext">
+  <p>Orthorectified Standard False colour image of Milton Ontario.1:20,000.  Image captured June 10th, 1999 by the Southern Ontario Colour Infrared Aerial Photography 1994-2002 project. Image Orthorectified March 1st 2024. Displayed on top of a 75 cm resolution, 2002 true colour image of the area, with the road network overlayed. </p></div>
+</div>
+<div></div>   
+<hr>
+	<!-- Alison's code ends here -->
+	    
+	<!--
+	*Owner:Alanah Reveler
+	*HTML for back to top button    
+     	*From: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp 
+	-->
+     		<div>
+       		 <button onclick="topFunction()" id="topbutton" class="hide" title="Top">Back to Top</button>
+     		</div> 
+     	<!--Owner Ends:Alanah Reveler--> 
+    <!--
+    - Owner : Alison Cooke
+    - From : https://www.w3schools.com/tags/tag_footer.asp
+    -->
+    <footer>
+        <p> 
+        Thank you for visiting my Cartographic portfolio 
+        </p>
+        <p> For more details about my experience in programing, data administration and customer service please visit my resume.</p>
+        <p>
+        <a class= "contactbut" href="https://ca.linkedin.com/in/julie-milne-1394a1132" > LinkedIn Profile
+        </a>
+        <!--this is made into a relative link becasue it is referencing to the same website just on a differnt page,https://www.w3schools.com/html/html_links.asp-->
+        </p>
+        <p>
+          Website created by Julie Milne 2024.
+          </p>
+    <!-- ***End Owner : Alison Cooke*** -->
+    </footer>
+    </body>
+</html>
