@@ -111,7 +111,7 @@ background-color: #9DC88D;
     .textlink{margin:20px}
     .textlink:hover {letter-spacing: 1px;}
     .cartsection .video {padding:4px; margin:2px;}
-    .Videotext { float: right;}
+    .Videotext { float: right;padding:20px}
 /*Back to top button*/
 /*From: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
